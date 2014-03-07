@@ -18,7 +18,7 @@
 namespace CK;
 
 
-* Combobox Widget
+/* Combobox Widget
  *
  * @copyright  Carsten Kollmeier 2014
  * @author    Carsten Kollmeier <carsten@ckollmeier.de>
@@ -42,8 +42,8 @@ class ComboBox extends \SelectMenu
 	public function generate()
 	{
 		$this->chosen = true;
-		$GLOBALS['TL_JAVASCRIPT'][] = 'system/modules/ck_combo_box/assets/ck_combo_box-uncompressed.js';
-		$GLOBALS['TL_CSS'][] = 'system/modules/ck_combo_box/assets/ck_combo_box-uncompressed.css';
+		$GLOBALS['TL_JAVASCRIPT'][] = 'system/modules/ck_combo_box/assets/ck_combobox-uncompressed.js';
+		$GLOBALS['TL_CSS'][] = 'system/modules/ck_combo_box/assets/ck_combobox-uncompressed.css';
 		return str_replace('tl_select','tl_select ck_combo',parent::generate());
 	}
 }

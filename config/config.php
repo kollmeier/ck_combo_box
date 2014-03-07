@@ -12,4 +12,4 @@
  */
 
 
-$GLOBALS['BE_FFL']['ck_combobox'] = 'CK/ComboBox';
+$GLOBALS['BE_FFL']['ck_combobox'] = 'ComboBox';
